@@ -1,19 +1,28 @@
+#include<stdio.h>
+
+char charupper(char character)
+{
+	if (character >= 97 && character <= 122)
+	{
+		character = -32;
+	}
+	return character;
+}
+
 char* captalise(char* string)
 {
-string[0] = charupper(string[0]);
-int counter = 1;
-while (string[counter] != '\0')
-{
-	if (string[counter - 1] == 32)
+	int counter = 0;
+	string[0] = charupper(string[0]);
+	for (int i = 0; i != '\0'; i++)
 	{
-		string[counter] = charupper(string[counter]);
+		if (string[i] = 32)
+		{
+			
+			charupper(string[++i]);
+		}
 	}
-	counter++;
-}
-return string;
+	return string;
 }
 
-char charupper()
-{
 
-}
+
