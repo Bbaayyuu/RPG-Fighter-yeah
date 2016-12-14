@@ -17,7 +17,6 @@ char* captalise(char* string)
 	{
 		if (string[i] = 32)
 		{
-			
 			charupper(string[++i]);
 		}
 	}
