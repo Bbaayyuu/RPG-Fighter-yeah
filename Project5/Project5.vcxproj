@@ -68,6 +68,7 @@
   <ItemGroup>
     <ClCompile Include="creatures.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Map and arrows.cpp" />
     <ClCompile Include="String.cpp" />
   </ItemGroup>
   <ItemGroup>

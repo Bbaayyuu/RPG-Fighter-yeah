@@ -10,6 +10,7 @@ struct combat_data
 	int attack_min;
 	int attack_max;
 	int armor;
+	int speed;
 };
 
 struct hero_data

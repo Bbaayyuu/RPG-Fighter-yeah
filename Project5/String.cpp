@@ -4,7 +4,7 @@ char charupper(char character)
 {
 	if (character >= 97 && character <= 122)
 	{
-		character = -32;
+		character -= 32;
 	}
 	return character;
 }

@@ -1,15 +1,22 @@
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
-#include<time.h>
-#include"String.h"
-#include"creatures.h"
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <time.h>
+#include "String.h"
+#include "creatures.h"
+#include <conio.h>
+#include "Map and arrows.cpp"
+#include <windows.h>
+#include<iostream>
 
 int get_value_within_range(int min, int max, int value);
 
+
 int main()
 {
-	// Game Srory.
+	system("COLOR 7C");
+	system("COLOR 7C");
+	// Game Story.
 	
 	printf_s("In a far, fantasy world, chaos is emerging from the interior of the ground, killing some vital herbs for the survabilityof the humans,evaporing nearly all the water of the river and making the ground poisoned.\nFor this reason, the reialm of Minabo have praised the gods for the arriving of a hero. An here is were your journey beggins, bravely hero.\nYou will have to enter the deepest dungeon it's ever seen and kill the black mage. You would also encounter terrorrific enemies and mortal dangers.\nPrepare yourself...\nBut first, can you tell me your name: ");
 
@@ -18,7 +25,8 @@ int main()
 	hero_data hero;
 
 	char temp_name[30];
-	scanf("%s", temp_name);
+	fflush(stdin);
+	scanf_s("%s", temp_name, 31);
 	for (int i = 0; i < 30; i++)
 	{
 		hero.name[i] = temp_name[i];
@@ -42,6 +50,42 @@ int main()
 	printf("\nMax.Damage (30-50):");
 	scanf_s("%d", &input_val);
 	hero.combat.attack_max = get_value_within_range(30, 50, input_val);
+	printf("\nSpeed (15-20):");
+	scanf("%d", &input_val);
+	hero.combat.speed = get_value_within_range(15, 20, input_val);
+	
+	//int number_goblins = ran % 5 + 2;
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	fflush(stdin);
 	getchar();
