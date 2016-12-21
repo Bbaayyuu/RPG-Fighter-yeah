@@ -1,6 +1,7 @@
 #ifndef __CREATURES_H__
 #define __CREATURES_H__
 
+
 // find here the manin data structure for the game
 // feel free to expand it to suit your improvements
 
