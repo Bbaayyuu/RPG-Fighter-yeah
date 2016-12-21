@@ -53,8 +53,11 @@ int main()
 	printf("\nSpeed (15-20):");
 	scanf("%d", &input_val);
 	hero.combat.speed = get_value_within_range(15, 20, input_val);
+	printf("So you decided that your hero would have this stats no??\n%d hp", hero.combat.hp);
 	
-	//int number_goblins = ran % 5 + 2;
+	int number_goblins;
+
+	number_goblins = rand() % 6 + 1;
 
 	
 

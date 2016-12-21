@@ -19,6 +19,9 @@
     <ClCompile Include="Map and arrows.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Return.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="creatures.h">

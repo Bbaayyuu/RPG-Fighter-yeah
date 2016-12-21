@@ -1,7 +1,3 @@
-﻿  main.cpp
-Map and arrows.obj : error LNK2005: "int __cdecl map_arrows_hero_movement(int)" (?map_arrows_hero_movement@@YAHH@Z) already defined in main.obj
-Map and arrows.obj : error LNK2005: "char (* Map)[30]" (?Map@@3PAY0BO@DA) already defined in main.obj
-Map and arrows.obj : error LNK2005: "int gamespeed" (?gamespeed@@3HA) already defined in main.obj
-Map and arrows.obj : error LNK2005: "int Level" (?Level@@3HA) already defined in main.obj
-Map and arrows.obj : error LNK2005: "bool stopgame" (?stopgame@@3_NA) already defined in main.obj
-C:\Users\marcgp5\Desktop\RPG-Fighter-yeah\Debug\RPG Fighter.exe : fatal error LNK1169: one or more multiply defined symbols found
+﻿  Map and arrows.cpp
+  Project5.vcxproj -> C:\Users\marcgp5\Desktop\RPG Fighter - handout\RPG-Fighter-yeah\Debug\RPG Fighter.exe
+  Project5.vcxproj -> C:\Users\marcgp5\Desktop\RPG Fighter - handout\RPG-Fighter-yeah\Debug\RPG Fighter.pdb (Full PDB)
